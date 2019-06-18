@@ -171,7 +171,7 @@ Task("Deploy-Octopus")
             IgnoreExisting = true,
             DeploymentProgress = true,
             WaitForDeployment = true
-        });
+        }); 
 });
 
 RunTarget(target);
